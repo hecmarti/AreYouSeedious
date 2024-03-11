@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4627644fa4929f64a92e4d63b3a1a95e, type: 3}
+  m_Name: RetroForestLootDefinition
+  m_EditorClassIdentifier: 
+  LootTable:
+    ObjectsToLoot:
+    - Loot: {fileID: 1472130053336478, guid: c9569c81d443344f99e99ce281af4edd, type: 3}
+      Weight: 25
+      ChancePercentage: 86.206894
+    - Loot: {fileID: 1162568021598160, guid: 6e1ac49bfe99a4ae88e76e5c1c1f34ad, type: 3}
+      Weight: 3
+      ChancePercentage: 10.344828
+    - Loot: {fileID: 1545117907540204, guid: 9d516561eabb1f444b599e6d5c88c60c, type: 3}
+      Weight: 1
+      ChancePercentage: 3.4482758
+    WeightsTotal: 29

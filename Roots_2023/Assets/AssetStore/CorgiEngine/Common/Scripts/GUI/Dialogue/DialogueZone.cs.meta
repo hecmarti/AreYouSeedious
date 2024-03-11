@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6432d8d1924b43748819ec079d9d2eed
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ButtonPromptPrefab: {instanceID: 0}
+  - ActivationFeedback: {instanceID: 0}
+  - DeniedFeedback: {instanceID: 0}
+  - EnterFeedback: {instanceID: 0}
+  - ExitFeedback: {instanceID: 0}
+  - DialogueBoxPrefab: {fileID: 199184, guid: 927a7e5e78367cc4ba304dae75c80ddf, type: 3}
+  - TextFont: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

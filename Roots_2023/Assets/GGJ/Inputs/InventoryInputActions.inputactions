@@ -1,0 +1,124 @@
+{
+    "name": "InventoryInputActions",
+    "maps": [
+        {
+            "name": "Inventory",
+            "id": "2d4836cd-2936-4113-8f22-45225607768e",
+            "actions": [
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "4855d34e-1dd6-4e3e-9e4a-573fcab402e0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "56b53e49-7157-4af6-8f7c-7d6db95db2da",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player",
+            "id": "7274208a-5c7d-4352-9d67-703fd48f5e52",
+            "actions": [
+                {
+                    "name": "SwitchInventory",
+                    "type": "Button",
+                    "id": "86236d26-47d9-4df5-871a-c55b7dc808be",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "13c24bc4-9478-4f33-8f5c-0f11322b4e62",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "UseInventoryItem",
+                    "type": "Button",
+                    "id": "1483235a-0b7b-4d0f-99c4-8f333528f398",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4e21010b-3c1e-4b78-9525-54c40b6aa903",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchInventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "127b03d1-5fa2-42e3-873f-aa30f14630a5",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchInventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "242f744a-8573-4a94-9fe4-d65c79843cc0",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "19fa23ee-bfa2-4fe2-97cd-9ec5f0426eff",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UseInventoryItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e0394bce-07e6-4359-8a1a-7101f40a315a",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UseInventoryItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

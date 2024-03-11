@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &8820706089881272920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4872364058633974403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fcfe7dd9d0c89540a1b6c4b35e5a4a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  DownwardsRaycastLength: 5
+  OnlyWhenGrounded: 0
+--- !u!1001 &4872364058634085251
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 119040, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: m_Name
+      value: RectangleDynamicGravity
+      objectReference: {fileID: 0}
+    - target: {fileID: 425048, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -70.76204
+      objectReference: {fileID: 0}
+    - target: {fileID: 425048, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.675519
+      objectReference: {fileID: 0}
+    - target: {fileID: 425048, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425048, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425048, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425048, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425048, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 425048, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425048, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425048, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425048, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11469900, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+      propertyPath: StickToSlopes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114408133200064378, guid: eaa0c32df7aae4121befb930bd401b9a,
+        type: 3}
+      propertyPath: InitialGravityAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114408133200064378, guid: eaa0c32df7aae4121befb930bd401b9a,
+        type: 3}
+      propertyPath: ReverseHorizontalInputWhenUpsideDown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114408133200064378, guid: eaa0c32df7aae4121befb930bd401b9a,
+        type: 3}
+      propertyPath: RotationSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eaa0c32df7aae4121befb930bd401b9a, type: 3}
+--- !u!1 &4872364058633974403 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 119040, guid: eaa0c32df7aae4121befb930bd401b9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4872364058634085251}
+  m_PrefabAsset: {fileID: 0}

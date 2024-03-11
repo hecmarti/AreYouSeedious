@@ -1,0 +1,34 @@
+{
+    "name": "MoreMountains.CorgiEngine",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4a1cb1490dc4df8409b2580d6b44e75e",
+        "GUID:8a258d69670d9a54d943dd0e57ffea8a",
+        "GUID:8f27f7a0f8da9854cb7c86f15d58fe82",
+        "GUID:8087d854c1f812e4b9a74437dfc524e0",
+        "GUID:1dbcca72f42070548a895178556c5bc3",
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:a6c4e439ce304074a94b8b0a99e7a040"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "1.0.0",
+            "define": "MM_CINEMACHINE"
+        },
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.0.0",
+            "define": "MM_INPUTSYSTEM"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16f005fbcfc61684c82bf819bce9d63b, type: 3}
+  m_Name: InventoryHitscanGun
+  m_EditorClassIdentifier: 
+  ItemID: InventoryHitscanGun
+  TargetInventoryName: MainInventory
+  Usable: 0
+  Equippable: 1
+  Quantity: 1
+  ItemName: HitscanGun
+  ShortDescription: The Eraser
+  Description: Electro-Magnetic Pulse. No gunpowder, no conventional bullets. They
+    fire caseless aluminum shells at nearly the speed of light.
+  CanMoveObject: 1
+  CanSwapObject: 1
+  Icon: {fileID: -8612435658162055378, guid: f3f4293ccdddd34468f58745d608416e, type: 3}
+  Prefab: {fileID: 5779133711551647654, guid: 0b9266832ffbcea479b3fe025f1af28a, type: 3}
+  SpawnShape: 1
+  PrefabDropMinDistance: {x: 2, y: 2, z: 0}
+  PrefabDropMaxDistance: {x: 3, y: 3, z: 0}
+  MaximumStack: 1
+  ItemClass: 2
+  TargetEquipmentInventoryName: WeaponInventory
+  EquippedSound: {fileID: 0}
+  UsedSound: {fileID: 0}
+  MovedSound: {fileID: 0}
+  DroppedSound: {fileID: 0}
+  UseDefaultSoundsIfNull: 1
+  EquippableWeapon: {fileID: -7162419854162558724, guid: 2836d6b1503d5cf4cbae669d9d830777,
+    type: 3}
+  AutoEquipMode: 0

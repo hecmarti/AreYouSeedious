@@ -1,0 +1,25 @@
+HOW TO INSTALL THE CORGI ENGINE?
+-----------------------------------
+
+To import the asset, follow these steps :
+
+1. Create a new project from Unity Hub, pick the latest stable version of Unity as your Unity version, and 2D or 3D as the Template
+2. Go to the Asset Store window and import the project (it has to be in an empty project, not an existing one)
+3. You will be warned that importing the Corgi Engine will overwrite your current project settings (that's normal), click on Import.
+4. This will take a bit of time.
+5. Once this is complete, you'll get a prompt saying "This Unity Package has Package Manager dependencies". This is also normal, click on "Install/Upgrade".
+6. After that you'll get a list of the contents of the engine, don't touch anything, and click on Import in the bottom right corner.
+7. Import will also take a while. Once import is complete, you're ready to use the engine. Have fun!
+
+And that's all there is to it!
+Have fun with the engine!
+
+You can learn more about the install process at https://corgi-engine-docs.moremountains.com/how-to-install.html
+
+ALSO IMPORTANT :
+----------------
+
+- If you're running a recently released update of Unity, there's a chance you'll get errors on install. 
+Don't panic, there's a big chance these are package related. Look at the errors, they may mention a package.
+Open the package manager, select said package, and click update in the bottom right corner.
+The packages the engine dependson are Cinemachine, PostProcessing and Pixel Perfect.
